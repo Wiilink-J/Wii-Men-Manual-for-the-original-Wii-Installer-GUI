@@ -1,3 +1,24 @@
+IMPORTANT: Make sure you have python installed on your computer. The GUI .exe file is meant to work only on x64 Windows, like Windows 10 or 11. If you have an x32 Windows, macos or linux, download the .py version instead and follow these passages:
+
+Windows (32-bit / x32)
+1) Download and install Python from the official website (make sure to check the box "Add python.exe to PATH" during installation).
+2) Open the Command Prompt (search for cmd in the Windows start menu).
+3) Install the required library by typing the following command and pressing Enter: pip install customtkinter
+4) To run the app, double-click the main.py file or type this in the Command Prompt: python Wii_Menu_Manual_for_the_original_Wii_installer.py
+
+macOS (Mac)
+1) Open the Terminal (press Cmd + Space, type Terminal, and press Enter).
+2) Install the required library by typing this command and pressing Enter: pip3 install customtkinter
+3) (Note: If your system says pip3 or python3 is missing, download and run the installer from the official Python website first).
+4) To run the app, type this in the Terminal:python3 Wii_Menu_Manual_for_the_original_Wii_installer.py
+
+Linux (Ubuntu, Debian, Mint, etc.)
+Linux systems usually have Python pre-installed, but they often lack the package manager (pip) and the graphical user interface support (tkinter) by default.
+1) Open the Terminal (shortcut: Ctrl + Alt + T).
+2) Install the required system components by running this command: sudo apt update && sudo apt install python3-pip python3-tk -y
+3) Install the required library by running:pip3 install customtkinter
+4) To run the app, type this in the Terminal: python3 Wii_Menu_Manual_for_the_original_Wii_installer.py
+
 This software let you install a patched version of the Wii Menu Manual (custom version) that is made for the original Wii. I knew there were one for Wii mini and one for vWii, so I just imagined how it would look like a manual for the original Wii.
 
 About the program: It is available in seven languages: English, Spanish, French, German, Dutch, Italian and Portuguese. Other languages will be added when I'll continue to extend the compatible languages in the manual
