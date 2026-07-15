@@ -29,10 +29,16 @@ jobs:
       run: |
         pyinstaller --onefile --windowed "Wii Menu Manual for the original Wii Installer GUI.py"
 
-    - name: Salva l'eseguibile creato
+    - name: Salva l'eseguibile creato (Linux)
+      if: matrix.os == 'ubuntu-latest'
       uses: actions/upload-artifact@v4
       with:
-        name: applicazione-${{ matrix.os }}
-        path: |
-          dist/Wii Menu Manual for the original Wii Installer GUI
-          dist/Wii Menu Manual for the original Wii Installer GUI.app
+        name: applicazione-linux
+        path: dist/Wii Menu Manual for the original Wii Installer GUI
+
+    - name: Salva l'eseguibile creato (Mac)
+      if: matrix.os == 'macos-latest'
+      uses: actions/upload-artifact@v4
+      with:
+        name: applicazione-mac
+        path: dist/Wii Menu Manual for the original Wii Installer GUI.app
