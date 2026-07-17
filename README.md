@@ -4,7 +4,7 @@ Windows (32-bit / x32)
 1) Download and install Python from the official website (make sure to check the box "Add python.exe to PATH" during installation).
 2) Open the Command Prompt (search for cmd in the Windows start menu).
 3) Install the required library by typing the following command and pressing Enter: pip install customtkinter
-4) To run the app, double-click the main.py file or type this in the Command Prompt: python Wii_Menu_Manual_for_the_original_Wii_installer.py
+4) To run the app, double-click the Wii_Menu_Manual_for_the_original_Wii_installer.py file or type this in the Command Prompt: python Wii_Menu_Manual_for_the_original_Wii_installer.py
 
 macOS (Mac)
 1) Open the Terminal (press Cmd + Space, type Terminal, and press Enter).
