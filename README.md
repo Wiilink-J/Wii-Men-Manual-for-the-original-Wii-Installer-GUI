@@ -1,5 +1,7 @@
 # Wii Menu Manual for Original Wii Installer
 
+Read all the description, especially the end.
+
 This software lets you install a patched, custom version of the Wii Menu Manual made specifically for the original Wii. Since manuals already existed for the Wii mini and vWii, this project reimagines how a manual for the original Wii would look.
 
 ### 🌍 Language Support
